@@ -205,3 +205,52 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ---------------------------
+# DATA SCIENCE ADDITIONS
+# ---------------------------
+
+# Ignore raw datasets — do NOT commit big CSVs
+data/raw/
+data/*.csv
+data/*.xlsx
+data/*.json
+data/*.parquet
+*.csv
+*.xlsx
+*.tsv
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+*.Rproj.user
+*.Rhistory
+*.RData
+.Rapp.history
+
+# Power BI files (they get big fast)
+*.pbix
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python extras
+.env
+venv/
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# SQLite / local DB files
+*.db
+*.sqlite
+
+# Model artifacts & temp files
+*.pkl
+*.joblib
