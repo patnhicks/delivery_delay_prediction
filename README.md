@@ -12,7 +12,7 @@ of delay and supports proactive and effective mitigation strategies.
 
 Unit of analysis: Individual flight
 
-Target variable: Arrival delay > 15 mminutes(?).  This is my initial binary variable, that is based solely on determining a starting point.  
+Target variable: Arrival delay > 15 minutes(?).  This is my initial binary variable and this is a variable included in initial data. 
 As I get deeper in EDA, the criteria of this may be updated.
 
 Prediction timing: Prior to take-off
