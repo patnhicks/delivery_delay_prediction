@@ -10,10 +10,27 @@ of delay and supports proactive and effective mitigation strategies.
 
 ### Business Problem
 
+Unit of analysis: Individual flight
+
+Target variable: Arrival delay > 15 mminutes(?).  This is my initial binary variable, that is based solely on determining a starting point.  
+As I get deeper in EDA, the criteria of this may be updated.
+
+Prediction timing: Prior to take-off
+
 ### Data Source
 Dataset: https://www.transtats.bts.gov/OT_Delay/OT_DelayCause1.asp
 
 Time Frame: Jan-Jun 2019
+
+### Data Scope: 
+
+Exclusions: These condition will be excluded from analysis. They are typically non-systemic and inherently unpredictable. They will be analyzed during EDA to 
+understand their frequencies and impact to determine whether further analysis is warranted.  
+- Emergencies, security incidents, extreme (non-seasonal) weather extremes
+- Cancellations/diversions
+
+This analysis is focused on operational issues, like traffic congestion, route path and characteristics, carrier behavioras, and origin and destination (OD)
+airport patterns.
 
 ### Approach
 
