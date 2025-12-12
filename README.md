@@ -12,14 +12,18 @@ of delay and supports proactive and effective mitigation strategies.
 
 ### Data Source
 Dataset: https://www.transtats.bts.gov/OT_Delay/OT_DelayCause1.asp
+
 Time Frame: Jan-Jun 2019
 
 ### Approach
 
 ### Project Structure
 notebooks/   → EDA and modeling analysis
+
 src/         → reusable functions
+
 reports/     → plots and summaries
+
 data/        → raw and processed datasets
 
 ### Insights
